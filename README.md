@@ -7,6 +7,10 @@ Aplikasi dibuat untuk memenuhi tugas Ujian Akhir Semester Pemrograman Berbasis O
 * Download dan Install QtDesigner
 Setelah selesai semua dilanjutkan dengan menginstall package pyqt5 dan psycopg2 dengan pip 
 
-   ``` pip install pyqt5 ```
+   ``` 
+   pip install pyqt5 
+   ```
    dan 
-   ```pip install psycopg2```
+   ```
+   pip install psycopg2
+   ```
