@@ -15,4 +15,3 @@ Setelah selesai semua dilanjutkan dengan menginstall package pyqt5 dan psycopg2 
    pip install psycopg2
    ```
 # Struktur Konfigurasi Database
-![image.png]( {[lin](https://drive.google.com/file/d/1FjDTs__eG6VJgZXF3rSF6L9VoG-SMm-w/view?usp=sharing)} )
