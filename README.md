@@ -21,6 +21,7 @@ Setelah selesai semua dilanjutkan dengan menginstall package pyqt5 dan psycopg2 
  firdiansyah(> username varchar(100) not null,
  firdiansyah(> password varchar(100) not null,
  firdiansyah(> rolename varchar(100) not null);
+ 
  CREATE TABLE
  firdiansyah=> create table PMB(
  firdiansyah(> id serial primary key,
