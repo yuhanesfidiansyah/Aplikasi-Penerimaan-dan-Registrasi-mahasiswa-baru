@@ -5,4 +5,5 @@ Aplikasi dibuat untuk memenuhi tugas Ujian Akhir Semester Pemrograman Berbasis O
 * Download dan Install Python
 * Download dan Install PosgreSQL
 * Download dan Install QtDesigner
-Setelah selesai semua dilanjutkan dengan menginstall package pyqt5 dan psycopg2 dengan pip
+Setelah selesai semua dilanjutkan dengan menginstall package pyqt5 dan psycopg2 dengan pip 
+// tets //
