@@ -73,7 +73,8 @@ Setelah selesai semua dilanjutkan dengan menginstall package pyqt5 dan psycopg2 
  
  
 # Penggunaan aplikasi PMB
-  * Setelah dwonload file aplikasi buat database sesuai struktur database diatas, anda bisa jalankan file main.py
+  * Setelah dwonload file aplikasi 
+  * buat database sesuai struktur database diatas, anda bisa jalankan file main.py
   
 # Kelompok 6
   * Yuhanes Firdiansyah(200511145)              
