@@ -53,7 +53,7 @@ Setelah selesai semua dilanjutkan dengan menginstall package pyqt5 dan psycopg2 
   * Yuhanes Firdiansyah(200511145)              
   * Muhammad Filauhin Mahfudin(200511144)       
   * Sahrul Mubarok (200511133)
-  * Muhammad Iqbal Trimulyono(2005111
+  * Muhammad Iqbal Trimulyono(200511153)
 
 
 
