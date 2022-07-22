@@ -16,43 +16,36 @@ Setelah selesai semua dilanjutkan dengan menginstall package pyqt5 dan psycopg2 
    ```
 # Struktur Konfigurasi Database
  * Create database KelasK1
-  PMB
-Column	Type	Comment	PK	        Nullable	Default
-id    	integer		   YES	         NO	
-nisn	   character varying(100)			NO	
-nama	   character varying(100)			NO	
-lahir	   character varying(100)			NO	
-jk	      character(1)			         NO	
-orgtua	character varying(100)			NO	
-sekolah	character varying(100)			NO	
-telepon	character varying(100)			NO	
-email	character varying(100)		   	NO	
-alamat	character varying(100)			NO	
-kode_prodi	character varying(100)		NO	
+ firdiansyah=> create table users
+ firdiansyah(> id serial primary key,
+ firdiansyah(> username varchar(100) not null,
+ firdiansyah(> password varchar(100) not null,
+ firdiansyah(> rolename varchar(100) not null);
+ CREATE TABLE
+ firdiansyah=> create table PMB(
+ firdiansyah(> id serial primary key,
+ firdiansyah(> nisn varchar(100) unique not null,
+ firdiansyah(> nama varchar(100) not null,
+ firdiansyah(> lahir varchar(100) not null,
+ firdiansyah(> jk char(1) not null,
+ firdiansyah(> sekolah varchar(100) not null,
+ firdiansyah(> telepon varchar(100) not null,
+ firdiansyah(> email varchar(100) not null,
+ firdiansyah(> alamat varchar(100) not null,
+ firdiansyah(> kode_prodi varchar(100) not null);
+ CREATE TABLE
 
-
-
-
-registrasi
-Column	      Type	                 Comment	  PK	   Nullable	Default
-id	           integer	            	            YES	   NO	
-pendaftaran	  character varying(100)			      NO	
-input	        character varying(100)		      	NO	
-nama	        character varying(100)			      NO	
-jk         	  character(1)			                  NO	
-biaya	        character varying(100)	      		NO	
-kode_prodi	  character varying(100)	      		NO	
-
-
-
-
-users
-Column	Type	                  Comment	PK	Nullable	Default
-iduser	integer		                     YES	NO	
-username	character varying(100)		   	NO	
-password	character varying(100)			   NO	
-rolename	character varying(100)		   	NO	
-
+ firdiansyah=> create table registrasi(
+ firdiansyah(> id serial primary key,
+ firdiansyah(> pendaftaran varchar(100) not null,
+ firdiansyah(> input varchar(100) not null,
+ firdiansyah(> nama varchar(100) not null,
+ firdiansyah(> jk char(1) not null,
+ firdiansyah(> biaya varchar(100) not null,
+ firdiansyah(> kode_prodi varchar(100) not null);
+ CREATE TABLE
+ 
+ 
 # Penggunaan aplikasi PMB
   * Setelah dwonload file aplikasi buat database sesuai struktur database diatas, anda bisa jalankan file main.py
   
