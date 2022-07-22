@@ -1,7 +1,7 @@
 # Kelompok 7 - Aplikasi penerimaan dan Registrasi Mahasiswa Baru
 Aplikasi dibuat untuk memenuhi tugas Ujian Akhir Semester Pemrograman Berbasis Objek 2.
 # Persiapan 
-* Download dan Install [Visual Studio Code atau code](https://code.visualstudio.com/) atau bisa juga menggunakan editor lainnya seperti [atom](https://atom.io/) 
+* Download dan Install [Visual Studio Code atau code](https://code.visualstudio.com/) atau bisa juga menggunakan editor lainnya seperti [atom](https://atom.io/) [sublimetext](https://www.sublimetext.com/) 
 * Download dan Install Python
 * Download dan Install PosgreSQL
 * Download dan Install QtDesigner
