@@ -24,10 +24,15 @@ Setelah selesai semua dilanjutkan dengan menginstall package pyqt5 dan psycopg2 
  
  CREATE TABLE
  firdiansyah=> create table PMB(
+ 
  firdiansyah(> id serial primary key,
+ 
  firdiansyah(> nisn varchar(100) unique not null,
+ 
  firdiansyah(> nama varchar(100) not null,
+ 
  firdiansyah(> lahir varchar(100) not null,
+ 
  firdiansyah(> jk char(1) not null,
  firdiansyah(> sekolah varchar(100) not null,
  firdiansyah(> telepon varchar(100) not null,
