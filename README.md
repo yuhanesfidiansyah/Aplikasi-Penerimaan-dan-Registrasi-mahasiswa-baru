@@ -57,10 +57,10 @@ rolename	character varying(100)		   	NO
   * Setelah dwonload file aplikasi buat database sesuai struktur database diatas, anda bisa jalankan file main.py
   
 # Kelompok 6
-  * Yuhanes Firdiansyah(200511145)              * Sahrul Mubarok (200511133)
-  * Muhammad Filauhin Mahfudin(200511144)       * Muhammad Iqbal Trimulyono(2005111
-  
-
+  * Yuhanes Firdiansyah(200511145)              
+  * Muhammad Filauhin Mahfudin(200511144)       
+  * Sahrul Mubarok (200511133)
+  * Muhammad Iqbal Trimulyono(2005111
 
 
 
