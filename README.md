@@ -16,13 +16,19 @@ Setelah selesai semua dilanjutkan dengan menginstall package pyqt5 dan psycopg2 
    ```
 # Struktur Konfigurasi Database
  * Create database KelasK1
+ 
  firdiansyah=> create table users
+ 
  firdiansyah(> id serial primary key,
+ 
  firdiansyah(> username varchar(100) not null,
+ 
  firdiansyah(> password varchar(100) not null,
+ 
  firdiansyah(> rolename varchar(100) not null);
  
  CREATE TABLE
+ 
  firdiansyah=> create table PMB(
  
  firdiansyah(> id serial primary key,
@@ -34,21 +40,35 @@ Setelah selesai semua dilanjutkan dengan menginstall package pyqt5 dan psycopg2 
  firdiansyah(> lahir varchar(100) not null,
  
  firdiansyah(> jk char(1) not null,
+ 
  firdiansyah(> sekolah varchar(100) not null,
+ 
  firdiansyah(> telepon varchar(100) not null,
+ 
  firdiansyah(> email varchar(100) not null,
+ 
  firdiansyah(> alamat varchar(100) not null,
+ 
  firdiansyah(> kode_prodi varchar(100) not null);
+ 
  CREATE TABLE
-
+ 
  firdiansyah=> create table registrasi(
+ 
  firdiansyah(> id serial primary key,
+ 
  firdiansyah(> pendaftaran varchar(100) not null,
+ 
  firdiansyah(> input varchar(100) not null,
+ 
  firdiansyah(> nama varchar(100) not null,
+ 
  firdiansyah(> jk char(1) not null,
+ 
  firdiansyah(> biaya varchar(100) not null,
+ 
  firdiansyah(> kode_prodi varchar(100) not null);
+ 
  CREATE TABLE
  
  
